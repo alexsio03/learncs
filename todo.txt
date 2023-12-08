@@ -1,0 +1,40 @@
+- DS
+  - arrays
+  - dynamic array
+  - linked list
+  - queue
+  - stack
+  - hash table
+  - tree
+    - diff trees
+  - BST
+  - graph
+  - trie
+  - heap
+  - prio queue
+
+- Big O
+
+- Algs
+  - Searching
+    - linear search
+    - binary search
+    - ternary search
+    - jump search
+    - interpolation search
+  - Sorting
+    - quicksort
+    - mergesort
+    - timsort
+    - heapsort
+    - bubble sort
+    - insertion sort
+    - selection sort
+    - tree sort
+    - shell sort
+    - bucket sort
+    - radix sort
+    - counting sort
+    - cubesort
+
+- Pathfinding
