@@ -36,10 +36,43 @@ export const dataStructs = [
     },
     {
         id: "tree",
-        name: "Tree",
-        wiki: "https://en.wikipedia.org/wiki/Tree_(data_structure)",
-        description: "A tree is a hierarchical data structure that consists of nodes connected by edges. Each node can have zero or more child nodes, except for the root node which has no parent.",
-        example: "      1\n    /   \\\n   2     3\n  / \\   / \\\n 4   5 6   7"
+        name: [
+            {
+                id: "general-tree",
+                name: "General Tree",
+                wiki: "https://en.wikipedia.org/wiki/Tree_(data_structure)",
+                description: "A tree is a hierarchical data structure that consists of nodes connected by edges. Each node can have zero or more child nodes, except for the root node which has no parent.",
+                example: "      1\n    / | \\\n   2  3  4\n  / \\\n 5   6"
+            },
+            {
+                id: "binary-tree",
+                name: "Binary Tree",
+                wiki: "https://en.wikipedia.org/wiki/Binary_tree",
+                description: "A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.",
+                example: "      1\n    /   \\\n   2     3\n  / \\   / \\\n 4   5 6   7"
+            },
+            {
+                id: "binary-search-tree",
+                name: "Binary Search Tree",
+                wiki: "https://en.wikipedia.org/wiki/Binary_search_tree",
+                description: "A binary search tree (BST) is a binary tree where each node has a Comparable key (and an associated value) and satisfies the restriction that the key in any node is larger than the keys in all nodes in that node's left subtree and smaller than the keys in all nodes in that node's right subtree.",
+                example: "      4\n    /   \\\n   2     6\n  / \\   / \\\n 1   3 5   7"
+            },
+            {
+                id: "avl-tree",
+                name: "AVL Tree",
+                wiki: "https://en.wikipedia.org/wiki/AVL_tree",
+                description: "An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases, where n is the number of nodes in the tree prior to the operation.",
+                example: "      4\n    /   \\\n   2     6\n  / \\   / \\\n 1   3 5   7"
+            },
+            {
+                id: "red-black-tree",
+                name: "Red-Black Tree",
+                wiki: "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree",
+                description: "A red-black tree is a self-balancing binary search tree. Each node stores an extra bit representing color, used to ensure that the tree remains approximately balanced during insertions and deletions.",
+                example: "      4\n    /   \\\n   2     6\n  / \\   / \\\n 1   3 5   7"
+            },
+        ]
     },
     {
         id: "hash-table",
@@ -47,13 +80,6 @@ export const dataStructs = [
         wiki: "https://en.wikipedia.org/wiki/Hash_table",
         description: "A hash table is a data structure that implements an associative array abstract data type. It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.",
         example: "{\n  'key1': 'value1',\n  'key2': 'value2',\n  'key3': 'value3'\n}"
-    },
-    {
-        id: "binary-search-tree",
-        name: "Binary Search Tree",
-        wiki: "https://en.wikipedia.org/wiki/Binary_search_tree",
-        description: "A binary search tree is a binary tree data structure in which each node has a key greater than all the keys in its left subtree and smaller than all the keys in its right subtree.",
-        example: "      4\n    /   \\\n   2     6\n  / \\   / \\\n 1   3 5   7"
     },
     {
         id: "graph",
