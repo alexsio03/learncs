@@ -5,7 +5,6 @@ export const classes = [
         year: "Junior HS",
         classDescription: "AP Computer Science A is an introductory college-level computer science course. Students cultivate their understanding of coding through analyzing, writing, and testing code as they explore concepts like modularity, variables, and control structures.",
         experience: "What I experienced in this class was...",
-        experienceDescription: "I learned the basics of Java and how to use it to create programs. I also learned about the different data structures and how to use them to create more efficient programs.",
     },
     {
         id: "apcsp",
@@ -13,7 +12,6 @@ export const classes = [
         year: "Senior HS",
         classDescription: "AP Computer Science Principles introduces students to the foundational concepts of computer science and challenges them to explore how computing and technology can impact the world. With a unique focus on creative problem solving and real-world applications, AP Computer Science Principles prepares students for college and career.",
         experience: "What I experienced in this class was...",
-        experienceDescription: "I learned the basics of computer science and how to use it to create programs. I also learned about the different data structures and how to use them to create more efficient programs.",
     },
     {
         id: "cs101",
@@ -21,6 +19,75 @@ export const classes = [
         year: "Senior HS",
         classDescription: "CS 101 is an introductory college-level computer science course. Students cultivate their understanding of coding through analyzing, writing, and testing code as they explore concepts like modularity, variables, and control structures.",
         experience: "What I experienced in this class was...",
-        experienceDescription: "I learned the basics of C++ and how to use it to create programs. I also learned about the different data structures and how to use them to create more efficient programs.",
-    }
+    },
+ {
+    id: "cs202",
+    className: "CS 202",
+    year: "Freshman College",
+    classDescription: "Introduction to data structures and analysis of algorithms. Abstract datatypes. Specification and implementation of advanced data structures. Theoretical and empirical analysis of recursive and iterative algorithms. Software performance evaluation and testing techniques.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs203",
+    className: "CS 203",
+    year: "Freshman College",
+    classDescription: "Object-oriented programming and design with applications to project construction. Introduction to class design, interfaces, inheritance, generics, exceptions, streams, and testing.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs225",
+    className: "CS 225",
+    year: "Freshman College",
+    classDescription: "Introduction to computer systems. Simple instruction set architecture and the computer hardware needed to implement that architecture. Machine and assembly language programming.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs357",
+    className: "CS 357",
+    year: "Freshman College",
+    classDescription: "C programming language from a system programming perspective. Standard C language including operators, I/O functions, and data types in the context of system functions. Unix commands, shell scripting, file system, editors.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs248",
+    className: "CS 248",
+    year: "Sophomore College",
+    classDescription: "Structures of computer science: logic, sets, relations, functions, graphs and trees. Propositional and predicate logic. Applications of predicate logic to preconditions, postconditions, and proof techniques. Complexity of algorithms.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs315",
+    className: "CS 315",
+    year: "Sophomore College",
+    classDescription: "In-depth study of the instruction set architecture and hardware design of a specific CPU. Introduction to pipelines, input/output and multi-processors. Computer abstractions and performance measurement.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs349",
+    className: "CS 349",
+    year: "Sophomore College",
+    classDescription: "Intermediate and advanced algorithms and their analysis. Mathematical, geometrical, and graph algorithms. NP-complete problems. Additional topics will be chosen from pattern matching, file compression, cryptology, dynamic and linear programming, and exhaustive search.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs307",
+    className: "CS 307",
+    year: "Junior College",
+    classDescription: "Requirements, specification, design, implementation, testing and verification of large software systems. Study and use of the software process and software engineering methodologies; working in project teams.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs325",
+    className: "CS 325",
+    year: "Junior College",
+    classDescription: "Introduction to policies and technologies related to digital privacy. Legal decisions and policies, domestic and global cultural expectations, and privacy related technologies including applications to surveillance, big data, websites, mobile, and privacy by design.",
+    experience: "What I experienced in this class was...",
+},
+{
+    id: "cs430",
+    className: "CS 430",
+    year: "Junior College",
+    classDescription: "Programming language design through evaluator implementation. Expressions, functions, environments, closures, mutation, objects, type systems, and syntactic abstraction. Syntactic, semantic, and static analysis properties.",
+    experience: "What I experienced in this class was...",
+}   
 ]

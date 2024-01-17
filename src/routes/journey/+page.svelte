@@ -24,7 +24,7 @@
                 <div id={id} class="flex flex-col p-4">
                     <h1 class="text-2xl text-zinc-300 font-bold">{name}</h1>
                     <h5>{year}</h5>
-                    <p class="text-zinc-400 py-3">{description}</p>
+                    <p class="text-zinc-400 py-3"><span class="text-zinc-300 font-bold">Description: </span>{description}</p>
                 </div>
                 <hr class="h-px my-6 bg-zinc-200 border-0 dark:bg-zinc-700">
             {/each}
