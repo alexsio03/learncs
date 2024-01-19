@@ -15,11 +15,11 @@
         <p class="text-2xl text-zinc-300">Algorithms</p>
         <p>Discover various algorithms and their implementations to solve common programming problems.</p>
         <div class="flex text-zinc-300 justify-evenly pt-8">
-            <a href="/algos/sorting">Sorting Algorithms</a>
-            <a href="/algos/searching">Searching Algorithms</a>
-            <a href="/algos/path-finding">Path Finding Algorithms</a>
+            <a class="text-xl" href="/algos/sorting">Sorting Algorithms</a>
+            <a class="text-xl" href="/algos/searching">Searching Algorithms</a>
+            <a class="text-xl" href="/algos/path-finding">Path Finding Algorithms</a>
             <p>|</p>
-            <a href="/algos/big-o">Big O Notation</a>
+            <a class="text-xl" href="/algos/big-o">Big O Notation</a>
         </div>
     </div>
     <hr class="h-px my-6 bg-zinc-200 border-0 dark:bg-zinc-700">

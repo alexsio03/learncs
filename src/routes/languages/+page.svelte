@@ -1,6 +1,5 @@
 <script>
 // @ts-nocheck
-    import { Accordion, AccordionItem } from 'flowbite-svelte';
     export let data;
 
     function scrollIntoView({ target }) {
