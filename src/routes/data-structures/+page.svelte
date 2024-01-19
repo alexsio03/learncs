@@ -1,8 +1,9 @@
 <script>
 // @ts-nocheck
-    import { Accordion, AccordionItem } from 'flowbite-svelte';
+    import { Accordion, Img, AccordionItem } from 'flowbite-svelte';
     export let data;
-
+    
+    
     function scrollIntoView({ target }) {
 		const el = document.querySelector(target.getAttribute('href'));
 		if (!el) return;
@@ -43,7 +44,7 @@
                         <h1 class="text-2xl text-zinc-300 font-bold">{name}</h1>
                             <p class="text-zinc-400 py-3">{description}<a class="mt-[0.8rem] ml-1 text-xs text-sky-600 hover:underline" href={wiki}>Learn more</a></p>
                         <div class="mx-auto">
-                            <h1>{example}</h1>
+                            <Img imgClass="h-48" class="rounded-xl" src={example} alt={name}/>
                         </div>
                     </div>
                     <hr class="h-px my-6 bg-zinc-200 border-0 dark:bg-zinc-700">
@@ -53,7 +54,7 @@
                     <h1 class="text-2xl text-zinc-300 font-bold">{name}</h1>
                         <p class="text-zinc-400 py-3">{description}<a class="mt-[0.8rem] ml-1 text-xs text-sky-600 hover:underline" href={wiki}>Learn more</a></p>
                     <div class="mx-auto">
-                        <h1>{example}</h1>
+                        <Img imgClass="h-48" class="rounded-xl" src={example} alt={name}/>
                     </div>
                 </div>
                 <hr class="h-px my-6 bg-zinc-200 border-0 dark:bg-zinc-700">

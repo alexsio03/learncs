@@ -30,7 +30,6 @@
     - bubble sort
     - insertion sort
     - selection sort
-    - tree sort
     - shell sort
     - bucket sort
     - radix sort
